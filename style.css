@@ -16,15 +16,18 @@ body{
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: -50px;
-    gap: 20px;
+    top: -60px;
+    gap: 30px;
     right: 20px;
     color: white;
+    /* float: left; */
     
 }
 .icon{
-    width: 50px;
+    width: 75px;
     border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
     
 }
 ul
@@ -32,18 +35,69 @@ ul
     list-style: none;
 }
 .itemContent{
-    /* display: inline; */
+   
     position: relative;
-    top: 15px;
-    /* right: 10px;  */
+    top: 5px;
+    
     
 }
 .smallIcon{
-    display: inline;
+    /* display: inline; */
     color: white;
-    width: 50px;
+    font-size: 25px;
 }
 .item{
     display: flex;
     gap: 10px;
+    
 }
+a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+:hover.item{
+    background-color: rgb(22, 100, 145);
+    border-radius: 10px;
+    font-size:larger;
+    padding: 5px;
+    transition: all .5s ;
+}
+
+.header{
+    /* box-shadow: 1px 2px 15px 0px #606c9b;  */
+}
+
+@media only screen and (width<770px)
+{
+    .container{
+        display: inline;
+        position: relative;
+        float: right;
+        top: 50px;
+        background-color: aliceblue;
+        border-radius: 50px;
+        
+    }
+    
+    .itemContent{
+        position: absolute;
+        visibility: hidden;
+    }
+    .smallIcon{
+        padding: 20px;
+        color: black;
+        font-size: 30px;
+        border-bottom: 2px dotted black;
+    }
+    :hover.item{
+        background-color: rgb(188, 210, 223);
+        border-radius: 50px;
+        /* font-size:larger; */
+        /* padding: 5px; */
+        transition: all .5s ;
+    }
+
+}
+

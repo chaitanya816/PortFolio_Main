@@ -8,7 +8,7 @@
 
 /* CSS OF HEADER */
 body{
-    background-color: rgb(17 79 116)
+    background-color: rgb(57, 148, 201)
 }
 
 
@@ -66,7 +66,7 @@ a{
     border-radius: 10px;
     font-size:larger;
     padding: 5px;
-    transition: all .5s ease-in-out;
+    transition: all .2s ;
 }
 
 

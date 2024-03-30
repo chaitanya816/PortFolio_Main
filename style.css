@@ -76,7 +76,59 @@ a{
 .cross{
     visibility: hidden;
 }
-@media only screen and (width<770px)
+/* Second Part Start */
+/* CSS for Second Part */
+
+.mainContainer{
+    display: flex;
+    width: 80vw;
+   box-shadow: 5px 5px 50px red;
+    background-color: rgb(228, 210, 210);
+    border-radius: 50px;
+    margin: 100px 50px 50px 100px ;
+    gap: 50px;
+    
+}
+.pic{
+    padding: 50px;
+    border-radius: 100%;
+    width: 350px;
+}
+.aboutMe{
+
+    padding: 50px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+.btn_1{
+
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: rgb(16, 20, 237);
+    border: 2px solid rgb(16, 20, 237) ;
+    border-radius: 50px;
+    font-size: 15px;
+
+}
+.name
+{
+    
+    font-size: 80px;
+    color: rgba(160, 50, 233, 0.458);
+
+}
+.designation{
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* Sencond Part end */
+
+
+@media only screen and (width<1000px)
 {
     .container{
         display: inline;
@@ -130,5 +182,52 @@ a{
     .icon{
         margin-top: 10px;
     }
+    .mainContainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vw;
+        box-shadow: 5px 5px 50px red;
+        background-color: rgb(228, 210, 210);
+        border-radius: 50px;
+        /* margin-top: -150px; */
+    }
+    .pic{
+       width: 300px;
+       padding-left: 50px;
+    }
+    .aboutMe{
+        /* margin-top: -70px; */
+    }
+    .name{
+        font-size: 50px;
+    }
+    .aboutMe{
+        margin-top: -100px;
+    }
+}
+@media only screen and (width<400px){
+
+
+    .pic{
+        width: 250px;
+        margin-left: -40px;
+    }
+    .name{
+        /* margin-top: -50px; */
+        font-size: 25px;
+    }
+    .designation{
+        font-size: 15px;
+    }
+    .btn_1{
+        margin-left: -10px;
+        width: 75px;
+        font-size: 10px;
+        border-radius: 10;
+    }
+    .aboutMe{
+        margin-top: -100px;
+    }
+
 }
 

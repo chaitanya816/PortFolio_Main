@@ -144,15 +144,32 @@ a {
 
     font-size: 80px;
     color: rgba(160, 50, 233, 0.458);
+    
 
 }
 
-.designation {
+/* .designation {
     font-size: 45px;
     padding: 10px;
     margin-top: 30px;
+} */
+.designation{
+    font-size: 25px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .1em;
+    /* border-right: .1em solid orange; */
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
 }
+@keyframes typing {
 
+    from{width: 0%}
+    to{width: 97%}
+    
+}
 
 /* Sencond Part end */
 
@@ -434,7 +451,7 @@ a {
     }
 }
 
-@media only screen and (width<500px) {
+@media only screen and (width<250px) {
 
     .introedu {
         margin-left: 10px;
@@ -442,6 +459,9 @@ a {
 
     .name {
         font-size: 20px;
+    }
+    .aboutEdu{
+        width: fit-content;
     }
 }
 

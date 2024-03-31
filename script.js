@@ -2,69 +2,85 @@
 const menuIcon = document.querySelector(".menu");
 const crossIcon = document.querySelector(".cross");
 let mode = "open";
-const width= document.querySelector("body").clientWidth;
+const width1 = document.querySelector("body").clientWidth;
 
-if (width>=770) {
+if (width1 <= 1000) {
 
-    console.log(width)
-    
-menuIcon.addEventListener("click", () => {
+    alert(width1)
 
-    menuIcon.onclick = () => {
+    menuIcon.addEventListener("click", () => {
 
-        if (mode == "open") {
+        menuIcon.onclick = () => {
 
-            mode ="close";
+            if (mode == "open") {
 
-            document.querySelector(".container").style.visibility = "visible";
-            document.querySelector(".menuIcon").style.visibility = "hidden";
-            
-            document.querySelector(".crossIcon").style.visibility = "visible";
-            
-            
-            
-        }
-        else if (mode == "close") {
-            
-            mode = "open";
-            
-            document.querySelector(".container").style.visibility = "hidden";
-            document.querySelector(".menuIcon").style.visibility = "visible";
-            
-            document.querySelector(".crossIcon").style.visibility = "hidden";
+                mode = "close";
+
+                document.querySelector(".container").style.visibility = "visible";
+                document.querySelector(".menuIcon").style.visibility = "hidden";
+
+                document.querySelector(".crossIcon").style.visibility = "visible";
 
 
-        }
 
-    }
-    crossIcon.onclick = () => {
+            }
+            else if (mode == "close") {
 
-        if (mode == "open") {
+                mode = "open";
 
-            mode ="close";
+                document.querySelector(".container").style.visibility = "hidden";
+                document.querySelector(".menuIcon").style.visibility = "visible";
 
-            document.querySelector(".container").style.visibility = "visible";
-            document.querySelector(".menuIcon").style.visibility = "hidden";
-            
-            document.querySelector(".crossIcon").style.visibility = "visible";
-            
-            
-            
-        }
-        else if (mode == "close") {
-            
-            mode = "open";
-            
-            document.querySelector(".container").style.visibility = "hidden";
-            document.querySelector(".menuIcon").style.visibility = "visible";
-            
-            document.querySelector(".crossIcon").style.visibility = "hidden";
+                document.querySelector(".crossIcon").style.visibility = "hidden";
 
+
+            }
 
         }
+        crossIcon.onclick = () => {
 
-    }
+            if (mode == "open") {
+
+                mode = "close";
+
+                document.querySelector(".container").style.visibility = "visible";
+                document.querySelector(".menuIcon").style.visibility = "hidden";
+
+                document.querySelector(".crossIcon").style.visibility = "visible";
 
 
-})
+
+            }
+            else if (mode == "close") {
+
+                mode = "open";
+
+                document.querySelector(".container").style.visibility = "hidden";
+                document.querySelector(".menuIcon").style.visibility = "visible";
+
+                document.querySelector(".crossIcon").style.visibility = "hidden";
+
+
+            }
+
+        }
+
+
+
+
+    })
+}
+
+// if (width1 >= 1001) {
+
+//     if (mode == "close" || mode == "open") 
+//     {
+//         alert(width1);
+//         document.querySelector(".crossIcon").style.visibility = "hidden";
+//         document.querySelector(".menuIcon").style.visibility = "hidden";
+//         document.querySelector(".container").style.visibility = "hidden";
+//     }
+
+
+
 }

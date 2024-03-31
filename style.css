@@ -147,6 +147,15 @@ a {
     
 
 }
+.namecolor{
+    color: gold;
+    font-weight: bolder;
+    
+}
+:hover.namecolor{
+    text-decoration: underline;
+    text-transform:uppercase;
+}
 
 /* .designation {
     font-size: 45px;
@@ -247,7 +256,10 @@ a {
     box-shadow: 5px 5px 150px 10px red;
     transition: all .4s;
 }
-
+:hover.mainContainer .namecolor {
+    text-decoration: underline;
+    text-transform:uppercase;
+}
 :hover.eduConatiner {
     box-shadow: 5px 5px 150px 10px rgb(0, 255, 123);
     transition: all .4s;
@@ -330,6 +342,7 @@ a {
     .name {
         font-size: 50px;
     }
+   
 
     .aboutMe {
         margin-top: -100px;

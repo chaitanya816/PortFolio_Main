@@ -82,7 +82,7 @@ a{
 .mainContainer{
     display: flex;
     width: 80vw;
-   box-shadow: 5px 5px 50px red;
+   /* box-shadow: 5px 5px 50px red; */
     background-color: rgb(228, 210, 210);
     border-radius: 50px;
     margin: 100px 50px 50px 100px ;
@@ -141,7 +141,7 @@ a{
    
         display: flex;
         width: 80vw;
-        box-shadow: 5px 5px 50px rgb(0, 255, 123);
+     
         background-color: rgb(222, 228, 210);
         border-radius: 50px;
         margin: 100px 50px 50px 100px ;
@@ -189,6 +189,15 @@ a{
 }
 .mainedu{
     margin-left: 100px;
+}
+
+:hover.mainContainer{
+    box-shadow: 5px 5px 150px 10px red;
+    transition: all .4s;
+}
+:hover.eduConatiner{
+       box-shadow: 5px 5px 150px 10px rgb(0, 255, 123);
+       transition: all .4s;
 }
 
 @media only screen and (width<1000px)
@@ -249,13 +258,14 @@ a{
         display: flex;
         flex-wrap: wrap;
         width: 70vw;
-        box-shadow: 5px 5px 50px red;
+        /* box-shadow: 5px 5px 50px red; */
         background-color: rgb(228, 210, 210);
         border-radius: 50px;
         /* margin-top: -150px; */
     }
     .pic{
        width: 300px;
+       height: 300px;
        padding-left: 50px;
     }
     .aboutMe{
@@ -277,8 +287,8 @@ a{
    
         display: flex;
         flex-wrap: wrap;
-        width: 80vw;
-        box-shadow: 5px 5px 50px rgb(0, 255, 123);
+        width: 70vw;
+        /* box-shadow: 5px 5px 50px rgb(0, 255, 123); */
         background-color: rgb(222, 228, 210);
         border-radius: 50px;
         margin: 100px 50px 50px 100px ;
@@ -289,20 +299,20 @@ a{
 }
 .edu{
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 125px;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .introedu{
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 150px;
     width: 150px;
     height: 150px;
     border-radius: 100%;
 }
 .aboutEdu{
-    width: 80%;
+    width: 50%;
     font-family: "Balsamiq Sans", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -311,11 +321,19 @@ a{
 .eduName{
     margin-left: 10px;
 }
+:hover.mainContainer{
+    box-shadow: 5px 5px 150px 10px red;
+    transition: all .4s;
+}
+:hover.eduConatiner{
+       box-shadow: 5px 5px 150px 10px rgb(0, 255, 123);
+       transition: all .4s;
+}
 
 
 
 }
-@media only screen and (width<400px){
+@media only screen and (width<500px){
 
 
     .pic{
@@ -324,7 +342,7 @@ a{
     }
     .name{
         /* margin-top: -50px; */
-        font-size: 25px;
+        font-size: 35px;
     }
     .designation{
         font-size: 15px;
@@ -338,6 +356,37 @@ a{
     .aboutMe{
         margin-top: -100px;
     }
+    .introedu{
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .edu{
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .aboutEdu{
+        margin-left: -40px;
+        width: 100%;
+        /* margin-right: 20px; */
+    }
+    .eduName{
+        font-size: 15px;
+        margin-left: -60px;
+    }
 
+    .eduConatiner,.mainContainer{
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (width<500px){
+
+    .introedu{
+        margin-left: 10px;
+    }
+    .name{
+        font-size: 20px;
+    }
 }
 

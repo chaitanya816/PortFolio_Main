@@ -300,7 +300,7 @@ a {
 
 }
 
-/* HERE SKILLS SECTION START */
+/* HERE PROJECT SECTION START */
 
 .projectContainer {
     margin-top: 150px;
@@ -351,6 +351,10 @@ a {
     margin-left: 0px;
     border: 2px solid black;
 }
+
+/* Project Section Done */
+
+
 
 /* MEDIA QUIRIES */
 @media only screen and (width<1000px) {

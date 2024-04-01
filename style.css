@@ -11,14 +11,14 @@ body {
     /* background-color: rgb(57, 148, 201) */
 }
 
-header{
-    position: sticky;
+header {
+    /* position: fixed; */
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: lavender;
- 
+
 
 }
 
@@ -93,9 +93,9 @@ a {
     visibility: hidden;
 }
 
-.firstHr{
+.firstHr {
     /* margin-top: 50px; */
-   text-decoration: dotted;
+    text-decoration: dotted;
 }
 
 /* Second Part Start */
@@ -144,25 +144,23 @@ a {
 
     font-size: 80px;
     color: rgba(160, 50, 233, 0.458);
-    
+
 
 }
-.namecolor{
+
+.namecolor {
     color: gold;
     font-weight: bolder;
-    
+
 }
-:hover.namecolor{
-    text-decoration: underline;
-    text-transform:uppercase;
-}
+
 
 /* .designation {
     font-size: 45px;
     padding: 10px;
     margin-top: 30px;
 } */
-.designation{
+.designation {
     font-size: 25px;
     padding: 10px;
     overflow: hidden;
@@ -173,20 +171,26 @@ a {
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
+
 @keyframes typing {
 
-    from{width: 0%}
-    to{width: 97%}
-    
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 97%
+    }
+
 }
 
 /* Sencond Part end */
 
-.eduConatiner{
+.eduConatiner {
     box-shadow: inset 5px 5px 15px 10px rgb(227, 70, 70);
 }
 
-.mainContainer{
+.mainContainer {
     box-shadow: inset 5px 5px 15px 10px rgb(100, 231, 100);
 }
 
@@ -252,19 +256,103 @@ a {
     margin-left: 100px;
 }
 
+/* EDUCATION SECTION END HERE */
+
+/* EXTRA CSS FOR BOTH */
+
 :hover.mainContainer {
     box-shadow: 5px 5px 150px 10px red;
     transition: all .4s;
 }
+
 :hover.mainContainer .namecolor {
     text-decoration: underline;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
 }
+
 :hover.eduConatiner {
     box-shadow: 5px 5px 150px 10px rgb(0, 255, 123);
     transition: all .4s;
 }
 
+.eduHr {
+    width: 80%;
+}
+
+:hover.mainContainer {
+    animation-name: new;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+:hover.eduConatiner {
+
+    animation-name: new;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes new {
+
+    from {
+        transform: translateY(60px) translateZ(50px) scale(0.8);
+    }
+
+}
+
+/* HERE SKILLS SECTION START */
+
+.projectContainer {
+    margin-top: 150px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    background-color: rgb(158, 158, 243);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px lavender;
+}
+
+.ProjectIntro {
+    text-decoration: underline;
+}
+
+.paytmvdo,.Netflixvdo,.domvdo {
+    width: 450px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 50px 5px lavender;
+}
+
+
+
+.PaytmProject,.NetflixProject,.domProject {
+    display: flex;
+    gap: 50px;
+}
+
+.aboutpaytmProject,.aboutNetflixProject,.aboutdomProject {
+    border: 2px solid red;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 50px 50px lavender;
+
+}
+.firstprojecthr{
+    margin: 50px 10px ;
+    /* width: 100vw; */
+    padding: 0px;
+    margin-left: 0px;
+    border: 2px solid black;
+}
+
+/* MEDIA QUIRIES */
 @media only screen and (width<1000px) {
     .container {
         display: inline;
@@ -328,7 +416,7 @@ a {
         flex-wrap: wrap;
         width: 70vw;
         border-radius: 50px;
-        
+
     }
 
     .pic {
@@ -337,12 +425,12 @@ a {
         padding-left: 50px;
     }
 
-   
+
 
     .name {
         font-size: 50px;
     }
-   
+
 
     .aboutMe {
         margin-top: -100px;
@@ -403,7 +491,17 @@ a {
         box-shadow: 5px 5px 50px 5px rgb(0, 255, 123);
         transition: all .4s;
     }
+    .PaytmProject,.domProject {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .NetflixProject{
+        display: flex;
+        flex-wrap:wrap-reverse;
+        gap: 50px;
 
+    }
 
 
 }
@@ -462,6 +560,27 @@ a {
     .mainContainer {
         margin-left: 60px;
     }
+    .paytmvdo,.Netflixvdo {
+        width: 300px;
+        height: 150px;
+        margin-top: 50px;
+        border-radius: 40px;
+        box-shadow: 5px 5px 50px 5px lavender;
+    }
+    
+    .projectContainer{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (width<350px) {
+
+    .projectContainer{
+        background-color: white;
+        box-shadow: 0px 0px 0px white;
+    }
+
+    
 }
 
 @media only screen and (width<250px) {
@@ -473,29 +592,8 @@ a {
     .name {
         font-size: 20px;
     }
-    .aboutEdu{
+
+    .aboutEdu {
         width: fit-content;
     }
-}
-
-:hover.mainContainer {
-    animation-name: new;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-:hover.eduConatiner {
-
-    animation-name: new;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-@keyframes new {
-
-    from {
-        transform: translateY(60px) translateZ(50px) scale(0.8);
-    }
-
-        {}
 }

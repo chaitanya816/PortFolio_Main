@@ -4,9 +4,7 @@ const crossIcon = document.querySelector(".cross");
 let mode = "open";
 const width1 = document.querySelector("body").clientWidth;
 
-if (width1 <= 1000) {
 
-    alert(width1)
 
     menuIcon.addEventListener("click", () => {
 
@@ -69,18 +67,3 @@ if (width1 <= 1000) {
 
 
     })
-}
-
-// if (width1 >= 1001) {
-
-//     if (mode == "close" || mode == "open") 
-//     {
-//         alert(width1);
-//         document.querySelector(".crossIcon").style.visibility = "hidden";
-//         document.querySelector(".menuIcon").style.visibility = "hidden";
-//         document.querySelector(".container").style.visibility = "hidden";
-//     }
-
-
-
-}

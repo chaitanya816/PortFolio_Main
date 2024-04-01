@@ -12,6 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,11 +29,11 @@
 
 
         <ul class="container">
-            <li class="item"> <a href="#"> <i class="fa-solid fa-house smallIcon"></i>
+            <li class="item"> <a href="#mainContainer"> <i class="fa-solid fa-house smallIcon"></i>
                     <div class="itemContent">Home</div>
                 </a>
             </li>
-            <li class="item"> <a href="#"> <i class="fa-solid fa-school smallIcon"></i>
+            <li class="item"> <a href="#eduConatiner"> <i class="fa-solid fa-school smallIcon"></i>
                     <div class="itemContent">Educational Qualification</div>
                 </a>
             </li>
@@ -35,7 +41,7 @@
                     <div class="itemContent">Skills</div>
                 </a>
             </li>
-            <li class="item"> <a href="#"> <i class="fa-solid fa-list-check smallIcon"></i>
+            <li class="item"> <a href="#projects"> <i class="fa-solid fa-list-check smallIcon"></i>
                     <div class="itemContent">Projects</div>
                 </a>
             </li>
@@ -44,12 +50,12 @@
                 </a>
             </li>
         </ul>
-        <hr  class="firstHr">
+        <hr class="firstHr">
     </header>
 
     <!-- About me  -->
     <main>
-        <div class="mainContainer">
+        <div class="mainContainer" id="mainContainer">
             <img src="icon.png" alt="" class="pic">
             <div class="aboutMe">
                 <ul class="aboutMElines">
@@ -66,7 +72,7 @@
     </main>
     <!-- Educational Qualification  -->
 
-    <div class="eduConatiner">
+    <div class="eduConatiner" id="eduConatiner">
 
         <figcaption>
             <h1 class="edu">Educational Qualification</h1><img src="education.png" alt="" class="introedu">
@@ -78,9 +84,10 @@
                     &nbsp;from CBSE Board
                 </h2>
                 <p class="aboutEdu">I have Completed my Secondary Education from DAV Public School, Radaur in 2021. I
-                    got 87.2% Marks  <a href="#" class="read">Read More</a></p>
+                    got 87.2% Marks <a href="#" class="read">Read More</a></p>
                 <img src="cbse.jpg" alt="" class="imgEdu">
             </li>
+            <hr class="eduHr">
             <li>
                 <h2 class="eduName">12<sup>th</sup>
                     &nbsp;from CBSE Board</h2>
@@ -88,6 +95,7 @@
                     2023. I got 80.2% Marks <a href="#" class="read">Read More</a></p>
                 <img src="cbse.jpg" alt="" class="imgEdu">
             </li>
+            <hr class="eduHr">
             <li>
                 <h2 class="eduName">
                     B. Tech from KUK
@@ -97,6 +105,84 @@
                 <img src="kuk.png" alt="" class="imgEdu">
             </li>
         </ul>
+    </div>
+
+    <hr>
+    <!-- HERE Projects SECTION START -->
+
+    <div class="projectContainer" id="projects">
+        <div class="ProjectIntro"> Latest Projects</div>
+
+        <hr class="project">
+
+
+        <div class="NetflixProject">
+            <ul class="aboutNetflixProject">
+                <li><b>Project Name:-</b> Netflix Clone</li>
+                <li><b>Language Used:-</b> HTML5 ,CSS3 </li>
+                <li><b>Project Description:-</b>
+                    <p class="aboutproject"> This is my first Project in which i created a full Front-End part of
+                        Netflix. Using only HTML &
+                        CSS</p>
+                </li>
+            </ul>
+            <video src="netflix.mp4" class="Netflixvdo" controls poster="netflix thumb.png"></video>
+
+
+        </div>
+
+        <hr class="firstprojecthr">
+
+        <div class="domProject">
+
+            <video src="JAVA - Made with Clipchamp.mp4" class="domvdo" controls poster="DOM.png"></video>
+            <ul class="aboutdomProject">
+                <li><b>Project Name:-</b> Learning of DOM Concept</li>
+                <li><b>Language Used:-</b> HTML5 ,CSS3, JS </li>
+                <li><b>Project Description:-</b>
+                    <p class="aboutproject">This is the project in which I am applying my Java Script knowledge  </p>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <hr class="firstprojecthr">
+
+        <div class="NetflixProject">
+            <ul class="aboutNetflixProject">
+                <li><b>Project Name:-</b> Code Craft HUB Clone</li>
+                <li><b>Language Used:-</b> HTML5 ,CSS3 </li>
+                <li><b>Project Description:-</b>
+                    <p class="aboutproject"> This is my Second Project in which I created a full Front-End part of Code Craft Hub using only HTML &
+                        CSS</p>
+                </li>
+            </ul>
+            <video src="CODE CRAFT HUB - Made with Clipchamp.mp4" class="Netflixvdo" controls poster="code.png"></video>
+
+
+        </div>
+
+        <hr class="firstprojecthr">
+
+
+        <div class="PaytmProject">
+            <video src="PAYTM - Made with Clipchamp.mp4" class="paytmvdo" controls poster="paytm.png"></video>
+
+            <ul class="aboutpaytmProject">
+                <li><b>Project Name:-</b> Paytm Clone</li>
+                <li><b>Language Used:-</b> HTML5 ,CSS3 ,Java Script</li>
+                <li><b>Project Description:-</b>
+                    <p class="aboutproject">In this Project I use HTML, CSS & JS. This is my First Project In which I
+                        integrated my knowledge
+                        about Java Script.</p>
+                </li>
+            </ul>
+        </div>
+        <hr class="firstprojecthr">
+
+
+
     </div>
 
 

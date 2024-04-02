@@ -13,6 +13,7 @@ body {
 
 header {
     /* position: fixed; */
+    /* width: 100%; */
     top: 0;
     left: 0;
     right: 0;
@@ -318,7 +319,9 @@ a {
     text-decoration: underline;
 }
 
-.paytmvdo,.Netflixvdo,.domvdo {
+.paytmvdo,
+.Netflixvdo,
+.domvdo {
     width: 450px;
     height: 250px;
     margin-top: 50px;
@@ -328,12 +331,16 @@ a {
 
 
 
-.PaytmProject,.NetflixProject,.domProject {
+.PaytmProject,
+.NetflixProject,
+.domProject {
     display: flex;
     gap: 50px;
 }
 
-.aboutpaytmProject,.aboutNetflixProject,.aboutdomProject {
+.aboutpaytmProject,
+.aboutNetflixProject,
+.aboutdomProject {
     border: 2px solid red;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
@@ -344,8 +351,9 @@ a {
     box-shadow: 5px 5px 50px 50px lavender;
 
 }
-.firstprojecthr{
-    margin: 50px 10px ;
+
+.firstprojecthr {
+    margin: 50px 10px;
     /* width: 100vw; */
     padding: 0px;
     margin-left: 0px;
@@ -354,5 +362,35 @@ a {
 
 /* Project Section Done */
 
+/* Skiils Section Start Here */
 
+.skillContainer{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: ;
+}
+.skillIntro {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 150px;
+    text-decoration: underline;
 
+}
+.skillIcon{
+    width: 50px;
+    
+}
+td,th{
+    border: 2px solid red;
+    padding: 50px;
+}
+.skillHeading{
+    font-size: 50px;
+     font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+table{
+   align-items: center;
+}

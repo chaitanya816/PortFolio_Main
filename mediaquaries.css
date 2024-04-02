@@ -206,7 +206,7 @@
     .mainContainer {
         margin-left: 60px;
     }
-    .paytmvdo,.Netflixvdo {
+    .paytmvdo,.Netflixvdo,.domvdo {
         width: 300px;
         height: 150px;
         margin-top: 50px;
@@ -236,10 +236,46 @@
     }
 
     .name {
-        font-size: 20px;
+        font-size: 15px;
+        margin-left: -30px;
     }
-
+    .pic{
+        width: 200px;
+        height: 200px;
+        margin-left: -20px;
+    }
+    .designation {
+        font-size: 10px;
+        /* padding: 10px; */
+        overflow: hidden;
+        margin-left: -50px;
+        /* white-space: nowrap; */
+        /* letter-spacing: .1em; */
+        /* border-right: .1em solid orange; */
+        animation-name: typing;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes typing {
+    
+        from {
+            width: 0%
+        }
+    
+        to {
+            width: 150%
+        }
+    
+    }
     .aboutEdu {
+     
         width: fit-content;
     }
+    header
+    {
+        width: 150%;
+        /* background-color: white; */
+    }
+    
 }

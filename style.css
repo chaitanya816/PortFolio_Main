@@ -512,3 +512,12 @@ a {
 .lastdes{
     font-size: 25px;
 }
+
+:hover.menuLastitem{
+    text-decoration: underline;
+}
+:hover.lastSocial{
+    transform: translateY(20px);
+    transform: scale(1.5);
+
+}

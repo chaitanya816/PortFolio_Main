@@ -367,7 +367,11 @@ a {
 .skillContainer{
     margin-top: 100px;
     padding: 50px;
-    background-color: ;
+    background-color: rgb(18, 22, 75);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(146, 85, 212, 0.325);
+    transform: translateX(10px);
+    color: white;
 }
 .skillIntro {
     font-family: "Kalam", cursive;
@@ -377,20 +381,134 @@ a {
     text-decoration: underline;
 
 }
+
+.allSkills{
+   display: flex;
+   gap: 10px;
+}
+.diffSkills{
+    margin-top: 50px;
+    border: 2px solid blue;
+    padding: 10px;
+    width:25%;
+    border-radius: 10px;
+}
 .skillIcon{
-    width: 50px;
-    
+    font-size: 100px;
+    color: white;
 }
-td,th{
-    border: 2px solid red;
-    padding: 50px;
+.htmlIcon{
+    color: red;
 }
-.skillHeading{
-    font-size: 50px;
-     font-family: "Balsamiq Sans", sans-serif;
-    font-weight: 500;
+.cssIcon{
+   color: blue;
+   /* background-color: white; */
+}
+.jsIcon{
+    background-color: black;
+    color: yellow;
+}
+.skillDefi{
+    font-size: 25px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
     font-style: normal;
 }
-table{
-   align-items: center;
+.cicon{
+    width: 100px;
+}
+:hover.diffSkills{
+    background-color: rgb(107, 115, 228);
+    transform: translateY(-25px);
+    box-shadow: 5px 5px 5px 5px rgb(88, 62, 203);
+}
+.aboutDissskils{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style:normal;
+  margin-top:50 px;
+
+}
+
+/*  REACH TO US*/
+.contactus{
+    margin-top: 50px;
+    background-color: blue;
+    color: white;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contactusConatiner{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 50px;
+}
+.reachbtn{
+    border: 2px solid white;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    color: white;
+    background-color: blue;
+
+}
+.reach{
+    font-size: 50px;
+}
+:hover.reachbtn
+{
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+}
+/* Main Footer */
+
+.mainContact{
+   
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    padding: 50px 0px 0px 50px;
+
+}
+.lastName{
+    padding: 50px;
+}
+.lasticon{
+    width: 150px;
+    border-radius: 100%;
+}
+
+.menuLastitem,.lastSocial{
+    color: white;
+}
+.lasticonimg{
+ font-size: 50px;
+ padding: 20px;
+}
+.menuLastitem{
+    padding: 15px;
+    font-size: 25px;
+
+}
+.lastMenu{
+    padding-top: 50px;
+}
+.social{
+    padding-top: 50px;
+}
+
+.lastmyName{
+    font-size: 50px;
+}
+.lastdes{
+    font-size: 25px;
 }

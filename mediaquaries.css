@@ -1,0 +1,245 @@
+/* MEDIA QUIRIES */
+@media only screen and (width<1000px) {
+    .container {
+        display: inline;
+        position: relative;
+        float: right;
+        top: 70px;
+        margin-right: -50px;
+        background-color: aliceblue;
+        border-radius: 50px;
+        visibility: hidden;
+
+    }
+
+    .itemContent {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .smallIcon {
+        padding: 20px;
+        color: black;
+        font-size: 30px;
+        border-bottom: 2px dotted black;
+    }
+
+    :hover.item {
+        background-color: rgb(188, 210, 223);
+        border-radius: 50px;
+        /* font-size:larger; */
+        /* padding: 5px; */
+        transition: all .5s;
+    }
+
+    .menuIcon {
+        visibility: visible;
+        font-size: 35px;
+        position: relative;
+        top: 10px;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .crossIcon {
+        visibility: visible;
+        font-size: 35px;
+        position: relative;
+        top: 10px;
+        float: right;
+        margin-right: 10px;
+        margin-right: -30px;
+        visibility: hidden;
+
+    }
+
+    .icon {
+        margin-top: 10px;
+    }
+
+    .mainContainer {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vw;
+        border-radius: 50px;
+
+    }
+
+    .pic {
+        width: 300px;
+        height: 300px;
+        padding-left: 50px;
+    }
+
+
+
+    .name {
+        font-size: 50px;
+    }
+
+
+    .aboutMe {
+        margin-top: -100px;
+    }
+
+    /* EDU QUAL */
+    .imgEdu {
+        visibility: hidden;
+
+    }
+
+    .eduConatiner {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 70vw;
+        border-radius: 50px;
+        margin: 100px 50px 50px 100px;
+        gap: 50px;
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .edu {
+        margin-top: 25px;
+        margin-left: 125px;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .introedu {
+        margin-top: 10px;
+        margin-left: 150px;
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+    }
+
+    .aboutEdu {
+        width: 50%;
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        margin-left: 10px;
+    }
+
+    .eduName {
+        margin-left: 10px;
+    }
+
+    :hover.mainContainer {
+        box-shadow: 5px 5px 50px 5px red;
+        transition: all .4s;
+    }
+
+    :hover.eduConatiner {
+        box-shadow: 5px 5px 50px 5px rgb(0, 255, 123);
+        transition: all .4s;
+    }
+    .PaytmProject,.domProject {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .NetflixProject{
+        display: flex;
+        flex-wrap:wrap-reverse;
+        gap: 50px;
+
+    }
+
+
+}
+
+@media only screen and (width<500px) {
+
+
+    .pic {
+        width: 250px;
+        margin-left: -40px;
+    }
+
+    .name {
+        /* margin-top: -50px; */
+        font-size: 35px;
+    }
+
+    .designation {
+        font-size: 15px;
+    }
+
+    .btn_1 {
+        margin-left: -10px;
+        width: 75px;
+        font-size: 10px;
+        border-radius: 10;
+    }
+
+    .aboutMe {
+        margin-top: -100px;
+    }
+
+    .introedu {
+        width: 150px;
+        height: 150px;
+        margin-left: 50px;
+    }
+
+    .edu {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .aboutEdu {
+        margin-left: -40px;
+        width: 100%;
+        /* margin-right: 20px; */
+    }
+
+    .eduName {
+        font-size: 15px;
+        margin-left: -60px;
+    }
+
+    .eduConatiner,
+    .mainContainer {
+        margin-left: 60px;
+    }
+    .paytmvdo,.Netflixvdo {
+        width: 300px;
+        height: 150px;
+        margin-top: 50px;
+        border-radius: 40px;
+        box-shadow: 5px 5px 50px 5px lavender;
+    }
+    
+    .projectContainer{
+        font-size: 75px;
+    }
+}
+
+@media only screen and (width<350px) {
+
+    .projectContainer{
+        background-color: white;
+        box-shadow: 0px 0px 0px white;
+    }
+
+    
+}
+
+@media only screen and (width<250px) {
+
+    .introedu {
+        margin-left: 10px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .aboutEdu {
+        width: fit-content;
+    }
+}

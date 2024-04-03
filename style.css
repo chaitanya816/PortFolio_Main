@@ -405,12 +405,12 @@ a {
    /* background-color: white; */
 }
 .jsIcon{
-    background-color: black;
+    /* background-color: black; */
     color: yellow;
 }
 .skillDefi{
-    font-size: 25px;
-    font-family: "Kalam", cursive;
+    font-size: 45px;
+    /* font-family: "Kalam", cursive; */
     font-weight: 400;
     font-style: normal;
 }
@@ -418,16 +418,17 @@ a {
     width: 100px;
 }
 :hover.diffSkills{
-    background-color: rgb(107, 115, 228);
+    background-color: rgb(198, 205, 245);
     transform: translateY(-25px);
+    color: black;
     box-shadow: 5px 5px 5px 5px rgb(88, 62, 203);
 }
 .aboutDissskils{
     font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
-  font-weight:lighter;
+  font-weight:bold;
   font-style:normal;
-  margin-top:50 px;
+  margin-top:50px;
 
 }
 
@@ -520,4 +521,11 @@ a {
     transform: translateY(20px);
     transform: scale(1.5);
 
+}
+.copy{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 25px;
 }

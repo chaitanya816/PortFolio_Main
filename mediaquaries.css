@@ -137,39 +137,49 @@
         box-shadow: 5px 5px 50px 5px rgb(0, 255, 123);
         transition: all .4s;
     }
-    .PaytmProject,.domProject {
+
+    .PaytmProject,
+    .domProject {
         display: flex;
         flex-wrap: wrap;
         gap: 50px;
     }
-    .NetflixProject{
+
+    .NetflixProject {
         display: flex;
-        flex-wrap:wrap-reverse;
+        flex-wrap: wrap-reverse;
         gap: 50px;
 
     }
-    .allSkills{
+
+    .allSkills {
         display: flex;
         flex-wrap: wrap;
     }
-    .diffSkills{
+
+    .diffSkills {
         margin-top: 50px;
         border: 2px solid blue;
         padding: 10px;
-        width:75%;
+        width: 75%;
         border-radius: 10px;
     }
-    .contactusConatiner{
+
+    .contactusConatiner {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .mainContact,.lastMenu,.social{
+    .mainContact,
+    .lastMenu,
+    .social {
         display: flex;
         flex-wrap: wrap;
-        
+
     }
-    .lastMenu,.social{
+
+    .lastMenu,
+    .social {
         margin-top: -100px;
     }
 
@@ -230,34 +240,38 @@
     .mainContainer {
         margin-left: 60px;
     }
-    .paytmvdo,.Netflixvdo,.domvdo {
+
+    .paytmvdo,
+    .Netflixvdo,
+    .domvdo {
         width: 300px;
         height: 150px;
         margin-top: 50px;
         border-radius: 40px;
         box-shadow: 5px 5px 50px 5px lavender;
     }
-    
-    .projectContainer{
+
+    .projectContainer {
         font-size: 75px;
     }
 
-    .skillIntro{
+    .skillIntro {
         font-size: 75px;
     }
-   
+
 }
 
 @media only screen and (width<350px) {
 
-    .projectContainer{
+    .projectContainer {
         background-color: white;
         box-shadow: 0px 0px 0px white;
     }
-    .skillContainer{
+
+    .skillContainer {
         width: 100%;
     }
-    
+
 }
 
 @media only screen and (width<265px) {
@@ -270,11 +284,13 @@
         font-size: 15px;
         margin-left: -30px;
     }
-    .pic{
+
+    .pic {
         width: 200px;
         height: 200px;
         margin-left: -20px;
     }
+
     .designation {
         font-size: 10px;
         /* padding: 10px; */
@@ -287,26 +303,27 @@
         animation-duration: 10s;
         animation-iteration-count: infinite;
     }
-    
+
     @keyframes typing {
-    
+
         from {
             width: 0%
         }
-    
+
         to {
             width: 150%
         }
-    
+
     }
+
     .aboutEdu {
-     
+
         width: fit-content;
     }
-    header
-    {
+
+    header {
         width: 150%;
         /* background-color: white; */
     }
-    
+
 }

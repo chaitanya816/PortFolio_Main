@@ -6,64 +6,64 @@ const width1 = document.querySelector("body").clientWidth;
 
 
 
-    menuIcon.addEventListener("click", () => {
+menuIcon.addEventListener("click", () => {
 
-        menuIcon.onclick = () => {
+    menuIcon.onclick = () => {
 
-            if (mode == "open") {
+        if (mode == "open") {
 
-                mode = "close";
+            mode = "close";
 
-                document.querySelector(".container").style.visibility = "visible";
-                document.querySelector(".menuIcon").style.visibility = "hidden";
+            document.querySelector(".container").style.visibility = "visible";
+            document.querySelector(".menuIcon").style.visibility = "hidden";
 
-                document.querySelector(".crossIcon").style.visibility = "visible";
-
-
-
-            }
-            else if (mode == "close") {
-
-                mode = "open";
-
-                document.querySelector(".container").style.visibility = "hidden";
-                document.querySelector(".menuIcon").style.visibility = "visible";
-
-                document.querySelector(".crossIcon").style.visibility = "hidden";
+            document.querySelector(".crossIcon").style.visibility = "visible";
 
 
-            }
 
         }
-        crossIcon.onclick = () => {
+        else if (mode == "close") {
 
-            if (mode == "open") {
+            mode = "open";
 
-                mode = "close";
+            document.querySelector(".container").style.visibility = "hidden";
+            document.querySelector(".menuIcon").style.visibility = "visible";
 
-                document.querySelector(".container").style.visibility = "visible";
-                document.querySelector(".menuIcon").style.visibility = "hidden";
+            document.querySelector(".crossIcon").style.visibility = "hidden";
 
-                document.querySelector(".crossIcon").style.visibility = "visible";
-
-
-
-            }
-            else if (mode == "close") {
-
-                mode = "open";
-
-                document.querySelector(".container").style.visibility = "hidden";
-                document.querySelector(".menuIcon").style.visibility = "visible";
-
-                document.querySelector(".crossIcon").style.visibility = "hidden";
-
-
-            }
 
         }
 
+    }
+    crossIcon.onclick = () => {
+
+        if (mode == "open") {
+
+            mode = "close";
+
+            document.querySelector(".container").style.visibility = "visible";
+            document.querySelector(".menuIcon").style.visibility = "hidden";
+
+            document.querySelector(".crossIcon").style.visibility = "visible";
 
 
 
-    })
+        }
+        else if (mode == "close") {
+
+            mode = "open";
+
+            document.querySelector(".container").style.visibility = "hidden";
+            document.querySelector(".menuIcon").style.visibility = "visible";
+
+            document.querySelector(".crossIcon").style.visibility = "hidden";
+
+
+        }
+
+    }
+
+
+
+
+})

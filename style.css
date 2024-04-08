@@ -106,7 +106,8 @@ a {
     display: flex;
     width: 80vw;
     border-radius: 50px;
-    margin: 100px 50px 50px 100px;
+    margin: 0px 50px 50px 100px;
+    /* margin-top: -1000px; */
     gap: 50px;
     margin-top: 50px;
 
@@ -539,7 +540,7 @@ a {
 .mode
 {
     font-size:30px;
-    margin-left: -30px;
+    
     color: black;
 }
 .modeoff

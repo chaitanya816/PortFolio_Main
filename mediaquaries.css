@@ -17,13 +17,15 @@
         visibility: hidden;
     }
 
-    .smallIcon {
+    .smallIcon,.mode {
         padding: 20px;
         color: black;
         font-size: 30px;
         border-bottom: 2px dotted black;
     }
-
+    .mode{
+        margin-left: -40px;
+    }
     :hover.item {
         background-color: rgb(188, 210, 223);
         border-radius: 50px;

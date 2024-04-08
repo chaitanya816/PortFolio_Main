@@ -18,7 +18,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom:0;
     background-color: lavender;
     z-index: 1;
 }
@@ -108,7 +108,7 @@ a {
     border-radius: 50px;
     margin: 100px 50px 50px 100px;
     gap: 50px;
-    margin-top: 250px;
+    margin-top: 50px;
 
 }
 
@@ -303,8 +303,9 @@ a {
 
 /* HERE PROJECT SECTION START */
 
+
 .projectContainer {
-    margin-top: 150px;
+    margin-top: 50px;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
@@ -528,4 +529,24 @@ a {
     text-align: center;
     padding: 10px;
     font-family: 25px;
+}
+
+
+
+
+/* MODE CSS */
+
+.mode
+{
+    font-size:30px;
+    margin-left: -30px;
+    color: black;
+}
+.modeoff
+{
+    position: absolute;
+
+}
+.modeon{
+    visibility: hidden;
 }

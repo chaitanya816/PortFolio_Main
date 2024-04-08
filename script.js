@@ -33,7 +33,6 @@ const width1 = document.querySelector("body").clientWidth;
 
 
             }
-
         }
         crossIcon.onclick = () => {
 

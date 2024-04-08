@@ -64,7 +64,6 @@ modeoff.addEventListener("click", () => {
 })
 
 modeon.addEventListener("click", () => {
-    
     modeon.onclick = () => {
         
         
